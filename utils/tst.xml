@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe versao="4.00">
+    <ide>
+      <cUF>35</cUF>
+      <natOp>Venda</natOp>
+      <mod>55</mod>
+      <nNF>12345</nNF>
+      <dhEmi>2025-04-03T10:00:00-03:00</dhEmi>
+    </ide>
+    <emit>
+      <CNPJ>12345678000123</CNPJ>
+      <xNome>Empresa Exemplo</xNome>
+    </emit>
+    <dest>
+      <CPF>98765432100</CPF>
+      <xNome>Cliente Teste</xNome>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>001</cProd>
+        <xProd>Produto Teste</xProd>
+        <vProd>100.00</vProd>
+      </prod>
+    </det>
+    <total>
+      <vNF>100.00</vNF>
+    </total>
+  </infNFe>
+</NFe>
