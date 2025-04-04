@@ -1,7 +1,3 @@
-Aqui está o modelo completo para seu `README.md` baseado nas especificações:
-
----
-
 # Mail2API Integration
 
 ### Descrição
