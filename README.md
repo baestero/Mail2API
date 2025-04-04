@@ -2,7 +2,7 @@
 
 ### Descrição
 
-Este projeto utiliza **Node.js** e **Cypress** para validar APIs que têm como **endpoint um endereço de e-mail**. Ele permite o envio de arquivos XML por e-mail para plataformas de integração, com logs detalhados e configuração simples. Ideal para casos de uso onde o e-mail é utilizado como um ponto de comunicação entre sistemas.
+Solução em **_Node.js_** e **_Cypress_** voltada para QAs que precisam validar integrações por e-mail. Ideal para cenários onde sistemas recebem arquivos XML via e-mail como gatilho de processos. O Node automatiza o envio do e-mail com anexo, e o Cypress garante que o arquivo foi processado corretamente no front-end. Fácil de configurar, com logs detalhados e perfeita para automação ponta a ponta em fluxos não convencionais.
 
 ---
 
