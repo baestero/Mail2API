@@ -120,6 +120,46 @@ module.exports = sendEmail;
 
 ---
 
+### Arquivo `cypress.config.js`
+
+O arquivo de configuração do Cypress é responsável por integrar a lógica de envio de e-mails e gerenciar as tasks durante os testes. Aqui está a configuração:
+
+```javascript
+const { defineConfig } = require("cypress");
+const sendEmail = require("./utils/email.js");
+
+module.exports = defineConfig({
+  e2e: {
+    setupNodeEvents(on, config) {
+      on("task", {
+        sendEmailTask() {
+          console.log("Tarefa sendEmailTask iniciada");
+          return sendEmail()
+            .then((result) => {
+              console.log("Tarefa sendEmailTask concluída:", result);
+              return result;
+            })
+            .catch((error) => {
+              console.error("Erro ao enviar e-mail:", error);
+              throw error;
+            });
+        },
+      });
+
+      return config;
+    },
+  },
+});
+```
+
+#### Explicação
+
+- **`sendEmailTask`**: Uma task Cypress personalizada que chama a função `sendEmail` para enviar e-mails diretamente do código.
+- **Logs**: O console exibe mensagens indicando o início, sucesso ou falha da tarefa.
+- **Flexibilidade**: Esta integração facilita o uso do Cypress para automatizar testes que envolvem envio de e-mails.
+
+---
+
 ## Estrutura do `.env.example`
 
 Aqui está o arquivo `env.example`, que deve ser preenchido com os dados do usuário:
