@@ -6,6 +6,12 @@ Solução em **_Node.js_** e **_Cypress_** voltada para QAs que precisam validar
 
 ---
 
+## Caso de Uso Mail2API
+
+Um exemplo de fluxo de testes automatizados está documentado no arquivo caso_de_uso_mail2api.pdf, disponível na raiz deste repositório.
+
+---
+
 ## Estrutura do Projeto
 
 - **Node.js**: Envio de e-mails via `nodemailer`.
