@@ -6,9 +6,13 @@ Solução em **_Node.js_** e **_Cypress_** voltada para QAs que precisam validar
 
 ---
 
+Aqui está o trecho atualizado do seu `README.md` com o link clicável para o PDF, substituindo o parágrafo da seção **"Caso de Uso Mail2API"**:
+
+---
+
 ## Caso de Uso Mail2API
 
-Um exemplo de fluxo de testes automatizados está documentado no arquivo caso_de_uso_mail2api.pdf, disponível na raiz deste repositório.
+Um exemplo de fluxo de testes automatizados está documentado neste [PDF de caso de uso](https://github.com/baestero/Mail2API/blob/main/caso_de_uso%20_mail2api.pdf), disponível na raiz deste repositório.
 
 ---
 
@@ -195,3 +199,7 @@ Contribuições são bem-vindas! Para colaborar:
 Este projeto está licenciado sob a licença **MIT**. Consulte o arquivo `LICENSE` para mais informações.
 
 ---
+
+## Autores
+
+- Leonardo Baestero - [GitHub](https://github.com/baestero)
